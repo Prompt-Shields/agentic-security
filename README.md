@@ -1,3 +1,18 @@
+> **This is a fork of another author's project.** The content below is upstream's,
+> and this notice is the only Bit Pulse AI addition.
+>
+> - **Upstream:** [ruvnet/agentic-security](https://github.com/ruvnet/agentic-security), by rUv, MIT licensed
+> - **Why it is here:** evaluation of autonomous scan-and-remediate pipelines. **An autonomous remediation pipeline is a system that scans a codebase, generates candidate fixes with a model, and opens them as branches for human review** — the review step is what keeps it safe, and it is not optional.
+> - **Status:** evaluation copy, not maintained by Bit Pulse AI. It is not part of the
+>   Prompt Shields product and has no Prompt Shields Cloud tier. The roadmap dates in the
+>   README below are from 2024 and have not been revised.
+> - **Caution:** this tool writes code and opens branches. Never point it at a repository
+>   where an unreviewed merge could reach production, and never give it credentials beyond
+>   the repository it is fixing.
+> - **Vulnerabilities:** report to upstream, not here. For Prompt Shields products, email security@promptshields.com.
+
+---
+
 # Agentic Security
 
 A fully autonomous security pipeline that combines advanced AI tools to streamline security scanning, remediation, and code management for modern development environments. Built for comprehensive security across code, architecture, and DevOps, it leverages AI-powered tools for hands-free vulnerability detection, intelligent fixes, and seamless DevSecOps integration—all wrapped in a sleek, cyberpunk-inspired interface.
